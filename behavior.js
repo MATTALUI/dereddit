@@ -4,8 +4,5 @@ $(document).ready(()=>{
 
 
 function showBlockedSites(){
-  // $('#sitesZone').append('<p>Yo Momma!</p>');
-  // console.log('clicked');
-  // alert('hello');
-  chrome.extension.getBackgroundPage().alert('hello world');
+  console.log('it DOES do something!');
 }
